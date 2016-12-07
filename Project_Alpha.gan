@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Project Alpha" company="" webLink="http://" view-date="2017-09-01" view-index="0" gantt-divider-location="281" resource-divider-location="300" version="2.8.1" locale="en_CA">
+    <description/>
+    <view zooming-state="default:11" id="gantt-chart">
+        <field id="tpd3" name="Name" width="147" order="0"/>
+        <field id="tpd4" name="Begin date" width="58" order="1"/>
+        <field id="tpd5" name="End date" width="57" order="2"/>
+        <option id="color.recent"><![CDATA[#ffffff #000000 #00ff00 #00cccc #ff0000 #ccff00 #cc0099 #990099 #ff3333]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Scripting" meeting="false" start="2016-11-01" duration="35" complete="0" expand="true"/>
+        <task id="1" name="Brainstorm Weapon" color="#ccff00" meeting="false" start="2016-12-05" duration="21" complete="0" expand="true"/>
+        <task id="3" name="Design Character" color="#00ff00" meeting="false" start="2016-12-19" duration="25" complete="0" expand="true"/>
+        <task id="4" name="Design Swords" color="#ccff00" meeting="false" start="2017-01-02" duration="35" complete="0" expand="true"/>
+        <task id="6" name="Design Staff/Polearm" color="#ccff00" meeting="false" start="2017-01-05" duration="32" complete="0" expand="true"/>
+        <task id="7" name="Design magic weapon" color="#ccff00" meeting="false" start="2017-01-09" duration="45" complete="0" expand="true"/>
+        <task id="9" name="Design the remaining" color="#ccff00" meeting="false" start="2017-02-13" duration="50" complete="0" expand="true"/>
+        <task id="10" name="Brainstorm Armour" color="#cc0099" meeting="false" start="2017-03-06" duration="40" complete="0" expand="true"/>
+        <task id="11" name="Design upper body armour" color="#cc0099" meeting="false" start="2017-04-28" duration="66" complete="0" expand="true"/>
+        <task id="12" name="Design lower body armour" color="#cc0099" meeting="false" start="2017-06-26" duration="55" complete="0" expand="true"/>
+        <task id="13" name="Scripting (2)" meeting="false" start="2017-08-21" duration="53" complete="0" expand="true"/>
+        <task id="14" name="Editing of Characters" color="#00ff00" meeting="false" start="2017-10-06" duration="36" complete="0" expand="true"/>
+        <task id="15" name="Brainstorm Enviroment" color="#00cccc" meeting="false" start="2017-10-09" duration="47" complete="0" expand="true"/>
+        <task id="16" name="Brainstorm map design" color="#ff0000" meeting="false" start="2017-10-09" duration="47" complete="0" expand="true"/>
+        <task id="17" name="Design greenery" color="#00cccc" meeting="false" start="2017-11-27" duration="35" complete="0" expand="true"/>
+        <task id="18" name="Design structure" color="#00cccc" meeting="false" start="2017-12-04" duration="45" complete="0" expand="true"/>
+        <task id="19" name="Build Map" color="#ff0000" meeting="false" start="2018-01-01" duration="70" complete="0" expand="true"/>
+        <task id="21" name="Animation" color="#00ff00" meeting="false" start="2018-02-12" duration="70" complete="0" expand="true"/>
+        <task id="20" name="Character Motion" color="#00ff00" meeting="false" start="2018-02-12" duration="47" complete="0" expand="true"/>
+        <task id="22" name="AI Motion" color="#00ff00" meeting="false" start="2018-02-12" duration="58" complete="0" expand="true"/>
+        <task id="23" name="Scripting (3)" meeting="false" start="2018-03-19" duration="80" complete="0" expand="true"/>
+        <task id="24" name="Alpha Testing" color="#000000" meeting="false" start="2018-07-10" duration="6" complete="0" expand="true"/>
+        <task id="26" name="Scripting (4)" meeting="false" start="2018-07-18" duration="48" complete="0" expand="true"/>
+        <task id="28" name="Finalization of Characters" color="#00ff00" meeting="false" start="2018-09-24" duration="20" complete="0" expand="true"/>
+        <task id="29" name="Finalization of Weaponry" color="#ccff00" meeting="false" start="2018-10-22" duration="24" complete="0" expand="true"/>
+        <task id="30" name="Finalization of Enemy" color="#00ff00" meeting="false" start="2018-11-26" duration="48" complete="0" expand="true"/>
+        <task id="31" name="Debugging" meeting="false" start="2018-12-31" duration="130" complete="0" expand="true"/>
+        <task id="35" name="Finalization of Environment and Structure" color="#00cccc" meeting="false" start="2018-12-31" duration="30" complete="0" expand="true"/>
+        <task id="32" name="Finalization of Map" color="#ff0000" meeting="false" start="2019-01-14" duration="89" complete="0" expand="true"/>
+        <task id="34" name="Finalization of Motion" color="#00ff00" meeting="false" start="2019-02-25" duration="65" complete="0" expand="true"/>
+        <task id="39" name="Beta Testing" color="#000000" meeting="false" start="2019-05-27" duration="24" complete="0" expand="true"/>
+        <task id="41" name="Debugging (2)" meeting="false" start="2019-06-28" duration="56" complete="0" expand="true"/>
+        <task id="42" name="Beta Testing (2)" color="#000000" meeting="false" start="2019-07-08" duration="32" complete="0" expand="true"/>
+        <task id="43" name="Debugging (3)" meeting="false" start="2019-09-17" duration="63" complete="0" expand="true"/>
+        <task id="44" name="Beta Testing (3)" color="#000000" meeting="false" start="2019-09-23" duration="69" complete="0" expand="true"/>
+        <task id="46" name="Final Debug" meeting="false" start="2019-12-23" duration="35" complete="0" expand="true"/>
+        <task id="47" name="Publishing" color="#ffffff" meeting="false" start="2020-02-24" duration="3" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
